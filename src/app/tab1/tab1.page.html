@@ -7,11 +7,43 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-item>
+    <ion-label>Valor 1 <br><input type="text" name="value1" value=""></ion-label>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-label>Valor 2 <br><input type="text" name="value2" value=""></ion-label>
+  </ion-item>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div><ion-button expand="block"><ion-icon name="add"></ion-icon></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button expand="block"><ion-icon name="remove"></ion-icon></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button expand="block"><ion-icon name="medical"></ion-icon></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button expand="block"><ion-icon name="ban"></ion-icon></ion-button></div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div><ion-button expand="block"><ion-label>Maior</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button expand="block"><ion-label>Menor</ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-label>Resultado: </ion-label><br>
+      <ion-label>Operação: </ion-label>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

@@ -1,17 +1,130 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Calculadora
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-item>
+    <ion-label>Operação <br><input type="text" name="operação" value=""></ion-label>
+  </ion-item>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-item>
+    <ion-label>Resultado: </ion-label>
+  </ion-item>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div><ion-button style="box-shadow: none" color="branco" expand="full"><ion-label>MC</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="branco" expand="full"><ion-label>MR</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="branco" expand="full"><ion-label>M+</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="branco" expand="full"><ion-label>M-</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="branco" expand="full"><ion-label>MS</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="branco" expand="full"><ion-label>M^</ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>%</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>√</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>x2</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>1/x</ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>CE</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>C</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-icon name="backspace-outline"></ion-icon></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>÷</ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>7</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>8</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>9</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label><ion-icon name="close-outline"></ion-icon></ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>4</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>5</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>6</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label><ion-icon name="remove-outline"></ion-icon></ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>1</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>2</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>3</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label><ion-icon name="add-outline"></ion-icon></ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>±</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="light" expand="full"><ion-label>0</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label>,</ion-label></ion-button></div>
+      </ion-col>
+      <ion-col>
+        <div><ion-button color="medium" expand="full"><ion-label><ion-icon name="reorder-two-outline"></ion-icon></ion-label></ion-button></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
