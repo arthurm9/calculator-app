@@ -3,6 +3,30 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** light grey **/
+  --ion-color-light-grey: #fafafa;
+	--ion-color-light-grey-rgb: 250,250,250;
+	--ion-color-light-grey-contrast: #000000;
+	--ion-color-light-grey-contrast-rgb: 0,0,0;
+	--ion-color-light-grey-shade: #dcdcdc;
+	--ion-color-light-grey-tint: #fbfbfb;
+
+  /** medium grey **/
+  --ion-color-medium-grey: #f0f0f0;
+	--ion-color-medium-grey-rgb: 240,240,240;
+	--ion-color-medium-grey-contrast: #000000;
+	--ion-color-medium-grey-contrast-rgb: 0,0,0;
+	--ion-color-medium-grey-shade: #d3d3d3;
+	--ion-color-medium-grey-tint: #f2f2f2;
+
+  /** dark grey **/
+  --ion-color-dark-grey: #e6e6e6;
+	--ion-color-dark-grey-rgb: 230,230,230;
+	--ion-color-dark-grey-contrast: #000000;
+	--ion-color-dark-grey-contrast-rgb: 0,0,0;
+	--ion-color-dark-grey-shade: #cacaca;
+	--ion-color-dark-grey-tint: #e9e9e9;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -92,6 +116,24 @@
 	--ion-color-branco-tint: #ffffff;
 }
 
+.ion-color-medium-grey {
+	--ion-color-base: var(--ion-color-medium-grey);
+	--ion-color-base-rgb: var(--ion-color-medium-grey-rgb);
+	--ion-color-contrast: var(--ion-color-medium-grey-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-medium-grey-contrast-rgb);
+	--ion-color-shade: var(--ion-color-medium-grey-shade);
+	--ion-color-tint: var(--ion-color-medium-grey-tint);
+}
+
+.ion-color-dark-grey {
+	--ion-color-base: var(--ion-color-dark-grey);
+	--ion-color-base-rgb: var(--ion-color-dark-grey-rgb);
+	--ion-color-contrast: var(--ion-color-dark-grey-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-dark-grey-contrast-rgb);
+	--ion-color-shade: var(--ion-color-dark-grey-shade);
+	--ion-color-tint: var(--ion-color-dark-grey-tint);
+}
+
 .ion-color-branco {
 	--ion-color-base: var(--ion-color-branco);
 	--ion-color-base-rgb: var(--ion-color-branco-rgb);
@@ -108,6 +150,15 @@
 	--ion-color-contrast-rgb: var(--ion-color-cinza-contrast-rgb);
 	--ion-color-shade: var(--ion-color-cinza-shade);
 	--ion-color-tint: var(--ion-color-cinza-tint);
+}
+
+.ion-color-light-grey {
+	--ion-color-base: var(--ion-color-light-grey);
+	--ion-color-base-rgb: var(--ion-color-light-grey-rgb);
+	--ion-color-contrast: var(--ion-color-light-grey-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-light-grey-contrast-rgb);
+	--ion-color-shade: var(--ion-color-light-grey-shade);
+	--ion-color-tint: var(--ion-color-light-grey-tint);
 }
 
 @media (prefers-color-scheme: dark) {

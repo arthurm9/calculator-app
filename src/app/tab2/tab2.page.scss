@@ -2,35 +2,44 @@
   font-family: 'Nunito', sans-serif;
 }
 
-ion-item {
-  display: relative;
-}
-
-ion-grid {
-  display: relative;
-  margin: 0;
-  padding: 0;
-}
-
-ion-col {
-  text-align: center;
-  padding: 0;
-}
-
-ion-button {
-  --box-shadow:none;
-  height: 4rem;
+.header {
+  ion-icon {
+    font-size: 2.2vh;
+  }
+  ion-icon:nth-child(3){
+    font-size: 1.8vh;
+  }
+  ion-title {
+    font-size: 2vh;
+  }
 }
 
 ion-grid {
   ion-label {
     font-size: 1.6rem;
   }
+  display: relative;
+  padding: 0;
+}
+
+ion-col {
+  padding: 0;
+}
+
+ion-button {
+  padding: 0.1vh;
+  margin: 0;
+  --border-radius: 0;
+  --box-shadow:none;
+  height: 10.5vh;
 }
 
 .row-1 {
+  div {
+    height: 4rem;
+  }
   ion-label {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -41,5 +50,15 @@ ion-icon {
 ion-card {
   ion-label {
     font-size: 3rem;
+  }
+}
+
+ion-item {
+  height: 5.7rem;
+}
+
+ion-toolbar {
+  ion-icon {
+    padding: 1rem;
   }
 }
