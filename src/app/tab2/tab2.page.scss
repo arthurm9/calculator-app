@@ -15,6 +15,7 @@
 }
 
 ion-grid {
+  height: auto;
   ion-label {
     font-size: 1.6rem;
   }
@@ -31,7 +32,7 @@ ion-button {
   margin: 0;
   --border-radius: 0;
   --box-shadow:none;
-  height: 10.5vh;
+  height: 12vh;
 }
 
 .row-1 {
@@ -40,6 +41,18 @@ ion-button {
   }
   ion-label {
     font-size: 0.8rem;
+  }
+}
+
+.row-2{
+  ion-label {
+    font-size: 1.2rem ;
+  }
+}
+
+.row-3{
+  ion-label {
+    font-size: 1.2rem ;
   }
 }
 
@@ -54,11 +67,22 @@ ion-card {
 }
 
 ion-item {
-  height: 5.7rem;
+  height: 4.5rem;
+}
+
+.num {
+  font-weight: bold;
 }
 
 ion-toolbar {
+  ion-title {
+    font-weight: bold;
+  }
   ion-icon {
     padding: 1rem;
   }
+}
+
+.mbold {
+  font-weight: 800;
 }
