@@ -2,6 +2,10 @@
   font-family: 'Nunito', sans-serif;
 }
 
+ion-content {
+  margin-top: 0;
+}
+
 .header {
   ion-icon {
     font-size: 2.2vh;
@@ -32,7 +36,7 @@ ion-button {
   margin: 0;
   --border-radius: 0;
   --box-shadow:none;
-  height: 12vh;
+  height: 5rem;
 }
 
 .row-1 {
@@ -46,18 +50,18 @@ ion-button {
 
 .row-2{
   ion-label {
-    font-size: 1.2rem ;
+    font-size: 2vh ;
   }
 }
 
 .row-3{
   ion-label {
-    font-size: 1.2rem ;
+    font-size: 2vh ;
   }
 }
 
 ion-icon {
-  font-size: 1.6rem;
+  font-size: 2.4vh;
 }
 
 ion-card {
@@ -71,7 +75,10 @@ ion-item {
 }
 
 .num {
-  font-weight: bold;
+  ion-label {
+    font-size: 2.8vh;
+    font-weight: bold;
+  }
 }
 
 ion-toolbar {
