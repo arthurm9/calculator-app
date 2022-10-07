@@ -19,16 +19,31 @@ ion-content {
 }
 
 ion-grid {
-  height: auto;
+  height: 80.8%;
   ion-label {
     font-size: 1.6rem;
   }
-  display: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
   padding: 0;
 }
 
 ion-col {
+  height: 100%;
   padding: 0;
+}
+
+ion-row {
+  height: 100%;
+}
+
+ion-row:nth-child(1) {
+  height: 10%;
+}
+
+div {
+  height: 100%;
 }
 
 ion-button {
@@ -36,12 +51,13 @@ ion-button {
   margin: 0;
   --border-radius: 0;
   --box-shadow:none;
-  height: 5rem;
+  height: 100%;
 }
 
 .row-1 {
+  height: 100%;
   div {
-    height: 4rem;
+    height: 10vh;
   }
   ion-label {
     font-size: 0.8rem;
@@ -71,7 +87,7 @@ ion-card {
 }
 
 ion-item {
-  height: 4.5rem;
+  height: 11.6%;
 }
 
 .num {
